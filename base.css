@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+
+p {
+    background-color:#F0F0F0;
+    padding:8px;
+    margin:8px 0px 8px 0px;
+}
+
+.header {
+    background-color:#CCC;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:200;
+    position:relative;
+    padding:20px;
+
+}
+
+/*
+.header + div {
+    padding:8px;
+}
+*/
+
+.header h2 {
+    z-index:100;
+}
+
+.fixed {
+    position:fixed;
+    z-index:1
+}
