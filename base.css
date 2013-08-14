@@ -19,11 +19,11 @@ p {
 
 }
 
-/*
-.header + div {
-    padding:8px;
+.fixed + div:before {
+    content:"";
+    display:block;
+    height:1px;
 }
-*/
 
 .header h2 {
     z-index:100;
