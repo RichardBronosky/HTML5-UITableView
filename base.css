@@ -15,7 +15,6 @@ p {
     left:0;
     z-index:200;
     position:relative;
-    padding:20px;
 
 }
 
@@ -27,6 +26,23 @@ p {
 
 .header h2 {
     z-index:100;
+    padding:20px;
+}
+
+.header:not(.fixed) h2 {
+    margin:0px;
+}
+
+.header:not(.fixed) h2:before {
+    content:"";
+    display:block;
+    height:20px;
+}
+
+.header:not(.fixed) h2:after {
+    content:"";
+    display:block;
+    height:20px;
 }
 
 .fixed {
