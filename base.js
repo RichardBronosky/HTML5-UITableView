@@ -1,4 +1,4 @@
-// From: http://jsfiddle.net/AlienWebguy/mvtP7/1/
+// From: http://jsfiddle.net/AlienWebguy/mvtP7/1/ via: http://stackoverflow.com/questions/6720847
 $(function(){
     var lastScrollTop = 0;
     // When the first header is given a fixed position, the inline content that follows with shift up.
