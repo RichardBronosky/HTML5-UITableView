@@ -1,0 +1,42 @@
+body {
+    font-family:Helvetica,Arial,san-serif;
+}
+
+div.tableview {
+    background-color:#CCC;
+}
+
+.tableview p:nth-child(odd) {
+    background-color:#FFF;
+}
+
+.tableview p:nth-child(even) {
+    background-color:#F0F0F0;
+}
+
+.tableview p {
+    padding:8px;
+    margin:1px 0px 1px 0px;
+}
+
+body, .tableview p:last-of-type, .tableview p:first-of-type, .tableview .header h2 {
+    margin:0px;
+}
+
+.tableview .header {
+    background-color:#333;
+    color:#FFF;
+    width:100%;
+    position:relative;
+
+}
+
+.tableview .header h2 {
+    padding:8px 4px 8px 4px;
+}
+
+.tableview .fixed {
+    position:fixed;
+    top:0;
+    left:0;
+}
